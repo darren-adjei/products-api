@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="wxUPGqoGjVsWL94cCXNE">
+    <mxGraphModel dx="691" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9q6Lgba7NuVPEXas7Ffr-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Product" vertex="1">
+          <mxGeometry height="60" width="280" x="280" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9q6Lgba7NuVPEXas7Ffr-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="- id : Long&lt;div&gt;- name : String&lt;/div&gt;&lt;div&gt;- price : double&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="280" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="9q6Lgba7NuVPEXas7Ffr-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="+ Product(Long id, String name, double price)&lt;div&gt;+ Long getID()&lt;/div&gt;&lt;div&gt;+ String getName()&lt;/div&gt;&lt;div&gt;+ double getPrice()&lt;/div&gt;&lt;div&gt;+ Product()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="280" x="280" y="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
