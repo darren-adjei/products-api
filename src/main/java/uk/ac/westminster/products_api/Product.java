@@ -14,7 +14,7 @@ public class Product {
 
     public Long getID() { return id; }
 
-    public String getName() { return name; }
+//    public String getName() { return name; }
 
     public double getPrice() { return price; }
 
