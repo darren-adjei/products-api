@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="655" dy="1119" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="J4cHSd9WNyTKtnZK-4B5-9" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="J4cHSd9WNyTKtnZK-4B5-0" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=block;endFill=0;endSize=8;" target="J4cHSd9WNyTKtnZK-4B5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J4cHSd9WNyTKtnZK-4B5-0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="DigitalProduct" vertex="1">
+          <mxGeometry height="60" width="280" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="J4cHSd9WNyTKtnZK-4B5-1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="- String downloadUrl&lt;div&gt;- double fileSizeMB&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="280" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="J4cHSd9WNyTKtnZK-4B5-2" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="+String getDownloadUrl()&lt;div&gt;+ double getFileSizeMB()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="280" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="J4cHSd9WNyTKtnZK-4B5-3" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="PhysicalProduct" vertex="1">
+          <mxGeometry height="60" width="280" x="640" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="J4cHSd9WNyTKtnZK-4B5-4" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="- double : weightKg&lt;div&gt;- String : dimensions&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="640" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="J4cHSd9WNyTKtnZK-4B5-5" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="+ double getWeightKg()&lt;div&gt;+ String getDimensions()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="280" x="640" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="J4cHSd9WNyTKtnZK-4B5-11" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="J4cHSd9WNyTKtnZK-4B5-6" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=none;endFill=0;endSize=8;startArrow=block;startFill=0;" target="J4cHSd9WNyTKtnZK-4B5-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J4cHSd9WNyTKtnZK-4B5-6" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Product" vertex="1">
+          <mxGeometry height="60" width="280" x="320" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="J4cHSd9WNyTKtnZK-4B5-7" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="- id : Long&lt;div&gt;- name : String&lt;/div&gt;&lt;div&gt;- price : double&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="320" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="J4cHSd9WNyTKtnZK-4B5-8" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="+ Product(Long id, String name, double price)&lt;div&gt;+ Long getID()&lt;/div&gt;&lt;div&gt;+ String getName()&lt;/div&gt;&lt;div&gt;+ double getPrice()&lt;/div&gt;&lt;div&gt;+ Product()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="280" x="320" y="400" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
