@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="wxUPGqoGjVsWL94cCXNE">
-    <mxGraphModel dx="691" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1372" dy="930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,6 +12,30 @@
         </mxCell>
         <mxCell id="9q6Lgba7NuVPEXas7Ffr-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="+ Product(Long id, String name, double price)&lt;div&gt;+ Long getID()&lt;/div&gt;&lt;div&gt;+ String getName()&lt;/div&gt;&lt;div&gt;+ double getPrice()&lt;/div&gt;&lt;div&gt;+ Product()&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="280" x="280" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="qBvhzkPssBKhz5VEOx7d-8" edge="1" parent="1" source="qBvhzkPssBKhz5VEOx7d-1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=open;endFill=0;endSize=8;dashed=1;" target="qBvhzkPssBKhz5VEOx7d-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBvhzkPssBKhz5VEOx7d-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ProductController" vertex="1">
+          <mxGeometry height="60" width="320" x="-400" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qBvhzkPssBKhz5VEOx7d-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="productService : ProductService" vertex="1">
+          <mxGeometry height="60" width="320" x="-400" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="qBvhzkPssBKhz5VEOx7d-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="+ List&amp;lt;Product&amp;gt; getAllProducts()&lt;div&gt;+ Product getProductById(@PathVariable Long id)&lt;/div&gt;&lt;div&gt;+ Product addProduct(@RequestBody Product product)&lt;/div&gt;&lt;div&gt;+ void deleteProduct(@PathVariable Long id)&lt;/div&gt;&lt;div&gt;+ List&amp;lt;Product&amp;gt; search)RequestParam String name)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="320" x="-400" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="qBvhzkPssBKhz5VEOx7d-9" edge="1" parent="1" source="qBvhzkPssBKhz5VEOx7d-4" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=open;endFill=0;endSize=8;" target="9q6Lgba7NuVPEXas7Ffr-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBvhzkPssBKhz5VEOx7d-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ProductService" vertex="1">
+          <mxGeometry height="60" width="280" x="-40" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qBvhzkPssBKhz5VEOx7d-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="products : List&amp;lt;Product&amp;gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="-40" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="qBvhzkPssBKhz5VEOx7d-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="+ List&amp;lt;Product&amp;gt; getAllProducts()&lt;div&gt;+ Product addProduct(Product product)&lt;/div&gt;&lt;div&gt;+ Optional&amp;lt;Product&amp;gt; getProductById(Long id)&lt;/div&gt;&lt;div&gt;+ void deleteProduct(Long id)&lt;/div&gt;&lt;div&gt;+ List&amp;lt;Product&amp;gt; findByName(String name)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="280" x="-40" y="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
