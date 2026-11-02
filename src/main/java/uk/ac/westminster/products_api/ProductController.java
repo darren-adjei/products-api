@@ -21,7 +21,7 @@ public class ProductController {
     }
 
     @PostMapping("/products")
-    public Product addProduct(@RequestBody Product product) {
+    public Product addProduct(@RequestBody DigitalProduct product) { // Product is abstract so a specific subclass should be used instead
         return productService.addProduct(product);
     }
 

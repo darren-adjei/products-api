@@ -14,8 +14,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ProductsApiApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ProductsApiApplication.class, args);
-	}
+	public static void main(String[] args) {SpringApplication.run(ProductsApiApplication.class, args);}
+	Product a = new PhysicalProduct(1L, "Laptop", 50.00, 0.5, "1x1");
+	Product b = new DigitalProduct(2L, "E-Book", 3.00, "www.thisisashop.com", 6.4);
 
 }
